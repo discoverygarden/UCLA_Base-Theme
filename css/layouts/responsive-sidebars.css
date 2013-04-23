@@ -65,7 +65,7 @@
 @media all and (min-width: 480px) {
   /* line 87, ../../sass/layouts/responsive-sidebars.scss */
   #main {
-    padding-top: 6.5em;
+    padding-top: 3.5em;
     /* Move all the children of #main down to make room. */
     position: relative;
   }
@@ -86,47 +86,68 @@
   }
 
   /* line 103, ../../sass/layouts/responsive-sidebars.scss */
-  #block-block-2 {
-    display: none;
+  #navigation {
+    max-height: 6em;
   }
-
-  /* line 107, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 105, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu {
-    top: 4em !important;
+    position: relative;
+    top: 4.9em !important;
     float: none !important;
+    font-size: 55% !important;
   }
   /* line 110, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu li {
     width: 57px !important;
+    margin: 20px 4px !important;
+  }
+  /* line 114, ../../sass/layouts/responsive-sidebars.scss */
+  #navigation #main-menu li.active {
+    height: 32px !important;
+  }
+  /* line 118, ../../sass/layouts/responsive-sidebars.scss */
+  #navigation #block-islandora-solr-simple {
+    position: relative;
+    top: -4.7em;
+  }
+  /* line 121, ../../sass/layouts/responsive-sidebars.scss */
+  #navigation #block-islandora-solr-simple .form-text {
+    float: none;
+    width: 100%;
   }
 }
 @media all and (min-width: 450px) and (max-width: 639px) {
-  /* line 118, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 130, ../../sass/layouts/responsive-sidebars.scss */
+  #main {
+    padding-top: 6.5em;
+  }
+
+  /* line 134, ../../sass/layouts/responsive-sidebars.scss */
   #navigation {
     height: 6.5em;
   }
-  /* line 120, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 136, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu {
     position: relative;
-    top: 4.3em;
+    top: 4em;
     float: none !important;
   }
-  /* line 127, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 143, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #block-islandora-solr-simple {
     top: -65px;
   }
-  /* line 129, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 145, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #block-islandora-solr-simple .form-text {
     float: none;
     width: 100%;
   }
 }
 @media all and (min-width: 640px) and (max-width: 767px) {
-  /* line 139, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 155, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu {
     font-size: 70% !important;
   }
-  /* line 141, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 157, ../../sass/layouts/responsive-sidebars.scss */
   #navigation #main-menu li {
     width: 78px !important;
   }
@@ -138,7 +159,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 159, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 175, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -146,7 +167,7 @@
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 163, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 179, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -158,7 +179,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 173, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 189, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: left;
@@ -166,7 +187,7 @@
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-  /* line 177, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 193, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: left;
@@ -178,7 +199,7 @@
   /*
    * The layout when there are two sidebars.
    */
-  /* line 187, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 203, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -186,7 +207,7 @@
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 191, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 207, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -194,7 +215,7 @@
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-  /* line 195, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 211, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: left;
@@ -205,7 +226,7 @@
     padding-right: 0;
     clear: left;
   }
-  /* line 200, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 216, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -215,7 +236,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 203, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 219, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: left;
@@ -224,7 +245,7 @@
     margin-right: -33.33333%;
     clear: left;
   }
-  /* line 207, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 223, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: left;
@@ -232,7 +253,7 @@
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-  /* line 210, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 226, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: left;
@@ -248,7 +269,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 228, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 244, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: left;
@@ -256,7 +277,7 @@
     margin-left: 20%;
     margin-right: -100%;
   }
-  /* line 232, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 248, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -268,7 +289,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 242, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 258, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: left;
@@ -276,7 +297,7 @@
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 246, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 262, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;
@@ -288,7 +309,7 @@
   /*
    * The layout when there are two sidebars.
    */
-  /* line 256, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 272, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: left;
@@ -296,7 +317,7 @@
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 260, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 276, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -304,7 +325,7 @@
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 264, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 280, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;

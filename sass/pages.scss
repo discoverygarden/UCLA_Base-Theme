@@ -20,10 +20,15 @@ body {
   background: #666;
 }
 
-#page {
+.front #page {
   background: #536895;
-  padding-bottom: 1.5em;
   color: #fff;
+}
+
+#page {
+  background: #DBDCDD;
+  padding-bottom: 1.5em;
+  color: #000;
   border-left: 15px solid #000;
   border-right: 15px solid #000;
   border-bottom: 5px solid #000;
@@ -142,6 +147,26 @@ h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
 }
+
+h1.title {
+  color: #1D3251;
+  font-size: 100%;
+  letter-spacing: 0.5pt;
+  text-shadow: 0 1px 1px #888;
+  text-transform: uppercase;
+  background: #C1C7D3;
+  padding: 1em 0;
+}
+
+h2 {
+  color: #414042;
+  font-size: 100%;
+  font-weight: normal;
+  letter-spacing: 0.5pt;
+  text-shadow: 0 1px 1px #888;
+  text-transform: uppercase;
+}
+
 
 tr.even { /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */ /* Drupal core uses a #eee background */

@@ -85,7 +85,7 @@ $zen-auto-include-item-base: false;
 
 @media all and (min-width: 480px) {
   #main {
-    padding-top: 6.5em; /* Move all the children of #main down to make room. */
+    padding-top: 3.5em; /* Move all the children of #main down to make room. */
     position: relative;
   }
   #navigation {
@@ -100,26 +100,42 @@ $zen-auto-include-item-base: false;
   #main {
     padding-top: 0;
   }
-  #block-block-2 {
-    display: none;
-  }
   #navigation {
+    max-height: 6em;
     #main-menu {
-      top: 4em !important;
+      position: relative;
+      top: 4.9em !important;
       float: none !important;
+      font-size: 55% !important;
       li {
         width: 57px !important;
+        margin: 20px 4px !important;
+      }
+      li.active {
+        height: 32px !important;
       }
     }
+      #block-islandora-solr-simple {
+        position: relative;
+        top: -4.7em;
+        .form-text {
+          float: none;
+          width: 100%;
+        }
+      }
   }
 }
 
 @media all and (min-width: 450px) and (max-width: 639px) {
+  #main {
+    padding-top: 6.5em;
+  }
+  
   #navigation {
     height: 6.5em;
     #main-menu {
       position: relative;
-      top: 4.3em;
+      top: 4em;
       float: none !important;
       li {
       }
