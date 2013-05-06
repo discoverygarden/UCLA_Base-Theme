@@ -57,6 +57,12 @@
 
 /* Islandora Blocks */
 
+#block-accordion-rotator-accordion-rotator {
+  margin-bottom: 4em;
+  box-shadow: 0 4px 2px -4px black;
+    -webkit-box-shadow: 0 4px 2px -4px black;
+}
+
 #block-islandora-solr-simple {
   margin-top: 0.6em;
   position: relative;
@@ -66,19 +72,51 @@
   }
   .form-text {
     width: 39%;
+    font-family: 'News Cycle';
+    color: #808184;
     float: right;
     height: 1.9em;
+    padding-left: 0.5em;
     border: 1px solid #666;
     border-radius: 7px;
       -webkit-border-radius: 7px;
-    box-shadow: 0 4px 2px -4px black;
-      -webkit-box-shadow: 0 3px 1px -4px black;
+    box-shadow: 0 4px 2px -2px #888888;
+      -webkit-box-shadow: 0 4px 2px -2px #888888;
   }
   .form-submit {
+    background: url("../images/search.png") no-repeat;
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 15px;
+    top: 3px;
+    color: transparent;
+    border: none;
+    height: 28px;
+    width: 28px; 
   }
+  .contextual-links-trigger {
+    display: none;
+  }
+}
+
+/* Menu Blocks */
+
+#block-menu-block-1, #block-islandora-solr-basic-facets, #block-islandora-solr-sort {
+  background: #fefefe;
+  border: 1px solid #35425F;
+  border-top: none;
+  margin: 0 -5px 1.5em;
+
+  h2 {
+    background: url("../images/triangle.png") no-repeat 3px -2px #35425F;
+    font-size: 100%;
+    padding: 12px 0 10px 10px;
+  }
+}
+
+/* Islandora Blocks */
+
+.islandora-solr-display {
+
 }
 
 #block-blog-recent { /* "Recent blog posts" block */

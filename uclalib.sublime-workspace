@@ -27,7 +27,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 4823,
+				"buffer_size": 5795,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 3108,
+				"buffer_size": 3094,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 783,
+				"buffer_size": 1085,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 5933,
+				"buffer_size": 6701,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 2974,
+				"buffer_size": 3788,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 6882,
+				"buffer_size": 6955,
 				"line_ending": "Unix"
 			}
 		}
@@ -112,6 +112,9 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCLA/themes/uclalib/uclalib.info",
+		"/Volumes/UCLA/themes/uclalib/js/script.js",
+		"/Volumes/UCLA/themes/uclalib/template.php",
 		"/Volumes/UCLA/css/normalize-rtl.css",
 		"/Volumes/UofM/UofM/UofM.info",
 		"/Volumes/UofM/UofM/template.php",
@@ -147,6 +150,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Islandora",
+			"#content",
+			"footer",
+			"bar",
+			"navigation",
+			"menu",
 			"navigation",
 			"#main-menu",
 			"rtl",
@@ -205,7 +214,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -213,15 +222,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 4823,
+						"buffer_size": 5795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5713,
+								5713
 							]
 						],
 						"settings":
@@ -231,7 +240,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -241,15 +250,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 3108,
+						"buffer_size": 3094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								981,
+								987
 							]
 						],
 						"settings":
@@ -297,15 +306,15 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 783,
+						"buffer_size": 1085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								272,
+								272
 							]
 						],
 						"settings":
@@ -325,15 +334,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 5933,
+						"buffer_size": 6701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2537,
-								2537
+								6249,
+								6249
 							]
 						],
 						"settings":
@@ -343,7 +352,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1306.0,
+						"translation.y": 3900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -353,15 +362,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 2974,
+						"buffer_size": 3788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1090,
-								1090
+								2003,
+								2003
 							]
 						],
 						"settings":
@@ -371,7 +380,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 770.0,
+						"translation.y": 1937.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -381,15 +390,15 @@
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 6882,
+						"buffer_size": 6955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4687,
-								4687
+								6890,
+								6890
 							]
 						],
 						"settings":
@@ -399,7 +408,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1981.0,
+						"translation.y": 2019.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

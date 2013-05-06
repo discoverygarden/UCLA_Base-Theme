@@ -141,8 +141,6 @@
 
     </div><!-- /#navigation -->
 
-    <div class="bar_top"></div>
-    
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
@@ -177,9 +175,9 @@
     <?php endif; ?>
 
   </div><!-- /#main -->
-  <div class="bar_bottom">
-    <?php print render($page['footer']); ?>
-  </div>
+
+  <?php print render($page['footer']); ?>
+
 </div><!-- /#page -->
 
 <?php print render($page['bottom']); ?>
