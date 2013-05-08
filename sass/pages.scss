@@ -33,7 +33,7 @@ body {
   border-bottom: 5px solid #000;
 }
 
-/*
+/**
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
@@ -123,7 +123,9 @@ body {
  * Main (container for everything else)
  */
 
-#main {
+.not-front #main {
+  overflow: hidden;
+  margin-bottom: -2em;
 }
 
 /*
@@ -163,13 +165,13 @@ h3.title { /* Comment title */
 
 h1.title {
   color: #1D3251;
+  background: #C1C7D3;
   font-size: 100%;
   letter-spacing: 0.5pt;
-  text-shadow: 0 1px 1px #999;
+  text-shadow: 0 1px 1px #efefef;
   text-transform: uppercase;
-  background: #C1C7D3;
-  padding: 0.6em 0 0.6em 15px;
-  margin: 0 -10px;
+  padding: 0.9em 3em;
+  margin: 0 -0.6em 0 -2.5em;
 }
 
 h2 {
@@ -219,7 +221,8 @@ tr.error { /* High priority messages. See also the .error declaration below. */
   /* color: #e09010; */ /* Drupal core uses a #e09010 background */
 }
 
-.tabs { /* See also the tabs.css file. */
+.page-islandora .tabs { /* See also the tabs.css file. */
+  margin-left: -1.8em !important;
 }
 
 .region-help { /* Help text on a page */
@@ -267,11 +270,11 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-sidebar-first {
-  margin-bottom: -2em;
-  padding: 1.5em 0 5em;
+  padding: 1.5em 0 9999px;
   color: 000;
   background: #C1C7D3;
-  
+  margin-bottom: -9999px;
+
   li a {
   color: #35425F;
   }

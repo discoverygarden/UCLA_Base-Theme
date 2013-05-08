@@ -247,6 +247,7 @@ $zen-auto-include-item-base: false;
 
     .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
       @include zen-grid-item(1, 1);
+      margin-left: 1em; 
     }
   }
 

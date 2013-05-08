@@ -171,6 +171,27 @@ a:focus {
 a:active {
 }
 
+#content {
+  a:link {
+  color: #35425F;
+  }
+  a:visited {
+  color: #35425F;
+  }
+  a:hover {
+  color: #FFB300;  
+}
+}
+.front #content {
+  a:link {
+  color: #fefefe;
+  }
+  a:visited {
+  color: #fefefe;
+  }
+}
+
+
 /*
  * Addresses outline displayed oddly in Chrome
  */

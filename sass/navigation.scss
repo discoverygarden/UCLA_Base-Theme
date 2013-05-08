@@ -82,6 +82,18 @@ li a.active {
       box-shadow: none;
         -webkit-box-shadow: none;
     }
+    li.active-trail {
+      display: block;
+      padding: 0 !important;
+      height: 45px;
+      background: #536895;
+      border: 1px solid #222;
+      border-bottom: none;
+      border-radius: 7px 7px 0 0;
+        -webkit-border-radius: 7px 7px 0 0;
+      box-shadow: none;
+        -webkit-box-shadow: none;
+    }
 
     li:hover {
       background: #536895;  

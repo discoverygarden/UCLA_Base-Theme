@@ -57,11 +57,11 @@ li a.active {
   padding: 2px 0;
   width: 95px;
   background: #384664;
-  border: 1px solid #777777;
+  border: 1px solid #777;
   border-radius: 7px;
   -webkit-border-radius: 7px;
-  box-shadow: 0px 2px 0px 1px #555555;
-  -webkit-box-shadow: 0px 2px 0px 1px #555555;
+  box-shadow: 0px 2px 0px 1px #555;
+  -webkit-box-shadow: 0px 2px 0px 1px #555;
 }
 /* line 73, ../sass/navigation.scss */
 #navigation #main-menu li.active {
@@ -69,22 +69,35 @@ li a.active {
   padding: 0 !important;
   height: 45px;
   background: #536895;
-  border: 1px solid #222222;
+  border: 1px solid #222;
   border-bottom: none;
   border-radius: 7px 7px 0 0;
   -webkit-border-radius: 7px 7px 0 0;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
-/* line 86, ../sass/navigation.scss */
+/* line 85, ../sass/navigation.scss */
+#navigation #main-menu li.active-trail {
+  display: block;
+  padding: 0 !important;
+  height: 45px;
+  background: #536895;
+  border: 1px solid #222;
+  border-bottom: none;
+  border-radius: 7px 7px 0 0;
+  -webkit-border-radius: 7px 7px 0 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+/* line 98, ../sass/navigation.scss */
 #navigation #main-menu li:hover {
   background: #536895;
 }
-/* line 92, ../sass/navigation.scss */
+/* line 104, ../sass/navigation.scss */
 #navigation .block {
   margin-bottom: 0;
 }
-/* line 97, ../sass/navigation.scss */
+/* line 109, ../sass/navigation.scss */
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -93,7 +106,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 102, ../sass/navigation.scss */
+/* line 114, ../sass/navigation.scss */
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
@@ -101,7 +114,7 @@ li a.active {
   padding: 0;
   text-align: center;
 }
-/* line 107, ../sass/navigation.scss */
+/* line 119, ../sass/navigation.scss */
 #navigation ul.links li,
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -113,7 +126,7 @@ li a.active {
 /*
  * Main menu and Secondary menu links
  */
-/* line 125, ../sass/navigation.scss */
+/* line 137, ../sass/navigation.scss */
 #secondary-menu {
   float: right;
 }
@@ -127,30 +140,30 @@ li a.active {
  * Drupal core has limited ways in which it can display its menus. To get around
  * these limitations, see http://drupal.org/project/menu_block
  */
-/* line 143, ../sass/navigation.scss */
+/* line 155, ../sass/navigation.scss */
 #block-menu-menu-footer-menu {
   font-size: 80%;
   margin: 0;
   line-height: 3.5em;
 }
-/* line 148, ../sass/navigation.scss */
+/* line 160, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu {
   margin: 0;
 }
-/* line 151, ../sass/navigation.scss */
+/* line 163, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li {
-  border-right: 1px solid #888f99;
+  border-right: 1px solid #888F99;
   padding-left: 1em;
 }
-/* line 155, ../sass/navigation.scss */
+/* line 167, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a {
   color: #b1b6bc;
 }
-/* line 158, ../sass/navigation.scss */
+/* line 170, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a:hover {
   color: #ffb300;
 }
-/* line 163, ../sass/navigation.scss */
+/* line 175, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li.last {
   border-right: none;
   float: right;

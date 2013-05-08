@@ -27,7 +27,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 5795,
+				"buffer_size": 5836,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 6701,
+				"buffer_size": 6726,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 3788,
+				"buffer_size": 3858,
 				"line_ending": "Unix"
 			}
 		},
@@ -214,7 +214,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -222,15 +222,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 5795,
+						"buffer_size": 5836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5713,
-								5713
+								745,
+								745
 							]
 						],
 						"settings":
@@ -240,7 +240,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4660.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -334,15 +334,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 6701,
+						"buffer_size": 6726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6249,
-								6249
+								5926,
+								5926
 							]
 						],
 						"settings":
@@ -352,7 +352,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3900.0,
+						"translation.y": 3919.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -362,15 +362,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 3788,
+						"buffer_size": 3858,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2003,
-								2003
+								2150,
+								2150
 							]
 						],
 						"settings":
@@ -380,7 +380,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1937.0,
+						"translation.y": 1475.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -408,7 +408,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2019.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
