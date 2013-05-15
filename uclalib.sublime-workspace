@@ -27,7 +27,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 5836,
+				"buffer_size": 5970,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 3094,
+				"buffer_size": 3413,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14397,
+				"buffer_size": 14604,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 1085,
+				"buffer_size": 1061,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 6726,
+				"buffer_size": 6842,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,15 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 3858,
+				"buffer_size": 6152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/islandora-large-image.tpl.php",
+			"settings":
+			{
+				"buffer_size": 2734,
 				"line_ending": "Unix"
 			}
 		},
@@ -112,6 +120,13 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/js/script.js",
+		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/js/accordion.js",
+		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/theme/accordion-rotator.tpl.php",
+		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/accordion_rotator.module",
+		"/Volumes/UCLA EC2/themes/uclalib/templates/islandora-large-image.tpl.php",
+		"/Volumes/UCLA EC2/modules/islandora_solution_pack_large_image/theme/islandora-large-image.tpl.php",
+		"/Volumes/UCLA EC2/themes/uclalib/uclalib.sublime-project",
 		"/Volumes/UCLA/themes/uclalib/uclalib.info",
 		"/Volumes/UCLA/themes/uclalib/js/script.js",
 		"/Volumes/UCLA/themes/uclalib/template.php",
@@ -150,6 +165,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"acc_title",
+			"648",
+			"clip",
 			"Islandora",
 			"#content",
 			"footer",
@@ -222,15 +240,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 5836,
+						"buffer_size": 5970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								745,
-								745
+								2911,
+								2911
 							]
 						],
 						"settings":
@@ -240,7 +258,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2786.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -250,15 +268,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 3094,
+						"buffer_size": 3413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								981,
-								987
+								1876,
+								1876
 							]
 						],
 						"settings":
@@ -278,15 +296,15 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 14397,
+						"buffer_size": 14604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3534,
+								3534
 							]
 						],
 						"settings":
@@ -296,7 +314,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1633.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -306,15 +324,15 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 1085,
+						"buffer_size": 1061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								272,
-								272
+								199,
+								199
 							]
 						],
 						"settings":
@@ -334,15 +352,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 6726,
+						"buffer_size": 6842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5926,
-								5926
+								6042,
+								6042
 							]
 						],
 						"settings":
@@ -352,7 +370,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3919.0,
+						"translation.y": 4033.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -362,15 +380,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 3858,
+						"buffer_size": 6152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2150,
-								2150
+								1673,
+								1673
 							]
 						],
 						"settings":
@@ -380,13 +398,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1475.0,
+						"translation.y": 1171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"file": "templates/islandora-large-image.tpl.php",
+					"settings":
+					{
+						"buffer_size": 2734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1291,
+								1291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "templates/page.tpl.php",
 					"settings":
 					{

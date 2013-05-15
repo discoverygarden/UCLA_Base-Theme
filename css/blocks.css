@@ -46,13 +46,15 @@
 #block-block-1 {
   /* First block created with "Add block" link */
   margin-top: 1em;
+  margin-bottom: 2.5em;
+  max-width: 66.6%;
 }
-/* line 41, ../sass/blocks.scss */
+/* line 43, ../sass/blocks.scss */
 #block-block-1 p {
   margin: 0.3em 0 0 0;
 }
 
-/* line 46, ../sass/blocks.scss */
+/* line 48, ../sass/blocks.scss */
 #block-block-2 {
   float: right;
   margin: 0;
@@ -61,17 +63,15 @@
   top: -16px;
 }
 
-/* line 54, ../sass/blocks.scss */
+/* line 56, ../sass/blocks.scss */
 #block-block-2 a {
   padding-left: 5px;
 }
 
 /* Islandora Blocks */
-/* line 60, ../sass/blocks.scss */
+/* line 62, ../sass/blocks.scss */
 #block-accordion-rotator-accordion-rotator {
-  margin-bottom: 4em;
-  box-shadow: 0 4px 2px -4px black;
-  -webkit-box-shadow: 0 4px 2px -4px black;
+  margin-bottom: 2.7em;
 }
 
 /* line 66, ../sass/blocks.scss */
@@ -101,7 +101,7 @@
 #block-islandora-solr-simple .form-submit {
   background: url("../images/search.png") no-repeat;
   position: absolute;
-  right: 15px;
+  right: 12px;
   top: 3px;
   color: transparent;
   border: none;
@@ -113,15 +113,28 @@
   display: none;
 }
 
+/* line 102, ../sass/blocks.scss */
+.islandora-solr-content tr {
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: 0.1em;
+  background: #C1C7D3;
+  border: 1px solid #ccc;
+}
+/* line 110, ../sass/blocks.scss */
+.islandora-solr-content td {
+  padding-right: 5px;
+}
+
 /* Menu Blocks */
-/* line 103, ../sass/blocks.scss */
+/* line 118, ../sass/blocks.scss */
 #block-menu-block-1, #block-islandora-solr-basic-facets, #block-islandora-solr-sort {
   background: #fefefe;
   border: 1px solid #35425F;
   border-top: none;
   margin: 0 -5px 1.5em;
 }
-/* line 109, ../sass/blocks.scss */
+/* line 124, ../sass/blocks.scss */
 #block-menu-block-1 h2, #block-islandora-solr-basic-facets h2, #block-islandora-solr-sort h2 {
   background: url("../images/triangle.png") no-repeat 3px -2px #35425f;
   font-size: 90%;
@@ -129,7 +142,7 @@
   text-transform: uppercase;
   letter-spacing: 1.2pt;
 }
-/* line 117, ../sass/blocks.scss */
+/* line 132, ../sass/blocks.scss */
 #block-menu-block-1 h3, #block-islandora-solr-basic-facets h3, #block-islandora-solr-sort h3 {
   font-size: 110%;
   font-weight: normal;
@@ -137,26 +150,26 @@
   margin-bottom: 0;
   letter-spacing: 0.8pt;
 }
-/* line 125, ../sass/blocks.scss */
+/* line 140, ../sass/blocks.scss */
 #block-menu-block-1 ul, #block-islandora-solr-basic-facets ul, #block-islandora-solr-sort ul {
   padding: 0 1em;
   margin-top: 1em;
 }
-/* line 128, ../sass/blocks.scss */
+/* line 143, ../sass/blocks.scss */
 #block-menu-block-1 ul li, #block-islandora-solr-basic-facets ul li, #block-islandora-solr-sort ul li {
   list-style: none;
   margin-bottom: 0.5em;
   line-height: 1.4em;
+  font-size: 85%;
 }
 
 /* Islandora Blocks */
-/* line 139, ../sass/blocks.scss */
+/* line 155, ../sass/blocks.scss */
 #block-islandora-solr-display-switch {
-  position: absolute;
-  right: 10px;
-  max-width: 10%;
+  float: right;
+  margin-right: -10px;
 }
-/* line 144, ../sass/blocks.scss */
+/* line 159, ../sass/blocks.scss */
 #block-islandora-solr-display-switch ul {
   list-style: none;
   padding: 0;
@@ -164,26 +177,26 @@
   min-width: 75px;
 }
 
-/* line 152, ../sass/blocks.scss */
+/* line 167, ../sass/blocks.scss */
 ul.pager {
   margin: 1em 0;
 }
-/* line 157, ../sass/blocks.scss */
+/* line 172, ../sass/blocks.scss */
 ul.pager li a {
   color: #35425F;
 }
-/* line 162, ../sass/blocks.scss */
+/* line 177, ../sass/blocks.scss */
 ul.pager li.pager-current {
   color: #35425F;
   background: #cbcbcb;
   border: 1px solid #35425F;
 }
 
-/* line 171, ../sass/blocks.scss */
+/* line 186, ../sass/blocks.scss */
 .islandora-solr-display li {
   float: left;
 }
-/* line 175, ../sass/blocks.scss */
+/* line 190, ../sass/blocks.scss */
 .islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table {
   background: url("../images/display-list.png") no-repeat top left;
   width: 25px;
@@ -192,202 +205,201 @@ ul.pager li.pager-current {
   text-indent: -9999px;
   outline: none;
 }
-/* line 182, ../sass/blocks.scss */
+/* line 197, ../sass/blocks.scss */
 .islandora-solr-display a.display-grid {
   background: url("../images/display-grid.png") no-repeat top left;
 }
-/* line 186, ../sass/blocks.scss */
+/* line 201, ../sass/blocks.scss */
 .islandora-solr-display a.display-table {
   background: url("../images/display-grid-list.png") no-repeat top left;
 }
 
-/* line 193, ../sass/blocks.scss */
+/* line 208, ../sass/blocks.scss */
 #islandora-solr-top {
-  position: absolute;
   margin: 10px;
 }
 
-/* line 198, ../sass/blocks.scss */
+/* line 212, ../sass/blocks.scss */
 .dc-title {
   background: #dbdcdd;
 }
 
-/* line 202, ../sass/blocks.scss */
+/* line 216, ../sass/blocks.scss */
 dl.solr-fields {
   float: left;
 }
 
-/* line 206, ../sass/blocks.scss */
+/* line 220, ../sass/blocks.scss */
 dl.solr-grid-field {
   background: #C1C7D3;
   padding: 5px 5px 1em;
   width: 19%;
   border: 1px solid #999;
 }
-/* line 213, ../sass/blocks.scss */
+/* line 227, ../sass/blocks.scss */
 dl.solr-grid-field dt.solr-grid-thumb img {
   display: block;
   margin: 0 auto;
 }
-/* line 218, ../sass/blocks.scss */
+/* line 232, ../sass/blocks.scss */
 dl.solr-grid-field dd.solr-grid-caption {
   text-align: center;
   margin-top: 1em;
 }
-/* line 221, ../sass/blocks.scss */
+/* line 235, ../sass/blocks.scss */
 dl.solr-grid-field dd.solr-grid-caption a {
   line-height: 1.3em;
   display: inline-block;
 }
 
-/* line 229, ../sass/blocks.scss */
-.islandora-large-image-content {
+/* line 243, ../sass/blocks.scss */
+.islandora-large-image-content, .islandora-basic-image-content {
   background: #C1C7D3;
   border-radius: 0;
   border: 1px solid #999;
 }
 
-/* line 236, ../sass/blocks.scss */
-.islandora-large-image-sidebar h2 {
+/* line 250, ../sass/blocks.scss */
+.islandora-large-image-sidebar h2, .islandora-basic-image-sidebar h2 {
   text-shadow: 0 1px 1px #ccc;
   margin: 0;
   font-size: 110%;
 }
-/* line 241, ../sass/blocks.scss */
-.islandora-large-image-sidebar p {
+/* line 255, ../sass/blocks.scss */
+.islandora-large-image-sidebar p, .islandora-basic-image-sidebar p {
   margin-top: 0.5em;
   font-size: 90%;
 }
-/* line 245, ../sass/blocks.scss */
-.islandora-large-image-sidebar ul {
+/* line 259, ../sass/blocks.scss */
+.islandora-large-image-sidebar ul, .islandora-basic-image-sidebar ul {
   list-style: none;
   padding: 0;
   margin: 0.5em 0 0;
   font-size: 90%;
 }
 
-/* line 253, ../sass/blocks.scss */
-.islandora-large-image-metadata {
+/* line 267, ../sass/blocks.scss */
+.islandora-large-image-metadata, .islandora-basic-image-metadata {
   margin: 1.5em 0 0 -1.8em;
 }
 
 /* End Islandora stuff */
-/* line 262, ../sass/blocks.scss */
+/* line 276, ../sass/blocks.scss */
 #block-blog-recent {
   /* "Recent blog posts" block */
 }
 
-/* line 265, ../sass/blocks.scss */
+/* line 279, ../sass/blocks.scss */
 #block-book-navigation {
   /* "Book navigation" block for the current book's table of contents */
 }
 
-/* line 268, ../sass/blocks.scss */
+/* line 282, ../sass/blocks.scss */
 #block-comment-recent {
   /* "Recent comments" block */
 }
 
-/* line 271, ../sass/blocks.scss */
+/* line 285, ../sass/blocks.scss */
 #block-forum-active {
   /* "Active forum topics" block */
 }
 
-/* line 274, ../sass/blocks.scss */
+/* line 288, ../sass/blocks.scss */
 #block-forum-new {
   /* "New forum topics" block */
 }
 
-/* line 277, ../sass/blocks.scss */
+/* line 291, ../sass/blocks.scss */
 #block-locale-language {
   /* Language switcher block */
 }
 
-/* line 280, ../sass/blocks.scss */
+/* line 294, ../sass/blocks.scss */
 #block-menu-menu-NAME {
   /* Custom menu block */
 }
 
-/* line 283, ../sass/blocks.scss */
+/* line 297, ../sass/blocks.scss */
 #block-node-recent {
   /* "Recent content" block */
 }
 
-/* line 286, ../sass/blocks.scss */
+/* line 300, ../sass/blocks.scss */
 #block-node-syndicate {
   /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
 }
 
-/* line 289, ../sass/blocks.scss */
+/* line 303, ../sass/blocks.scss */
 #block-poll-recent {
   /* "Most recent poll" block */
 }
 
-/* line 292, ../sass/blocks.scss */
+/* line 306, ../sass/blocks.scss */
 #block-profile-author-information {
   /* "Author information" block for the profile of the page's author */
 }
 
-/* line 295, ../sass/blocks.scss */
+/* line 309, ../sass/blocks.scss */
 #block-search-form {
   /* "Search form" block */
 }
 
-/* line 298, ../sass/blocks.scss */
+/* line 312, ../sass/blocks.scss */
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-/* line 301, ../sass/blocks.scss */
+/* line 315, ../sass/blocks.scss */
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-/* line 304, ../sass/blocks.scss */
+/* line 318, ../sass/blocks.scss */
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-/* line 307, ../sass/blocks.scss */
+/* line 321, ../sass/blocks.scss */
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-/* line 310, ../sass/blocks.scss */
+/* line 324, ../sass/blocks.scss */
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
 
-/* line 313, ../sass/blocks.scss */
+/* line 327, ../sass/blocks.scss */
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-/* line 316, ../sass/blocks.scss */
+/* line 330, ../sass/blocks.scss */
 #block-system-help {
   /* "System help" block */
 }
 
-/* line 319, ../sass/blocks.scss */
+/* line 333, ../sass/blocks.scss */
 #block-system-main {
   /* "Main page content" block */
 }
 
-/* line 322, ../sass/blocks.scss */
+/* line 336, ../sass/blocks.scss */
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-/* line 325, ../sass/blocks.scss */
+/* line 339, ../sass/blocks.scss */
 #block-user-login {
   /* "User login form" block */
 }
 
-/* line 328, ../sass/blocks.scss */
+/* line 342, ../sass/blocks.scss */
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-/* line 331, ../sass/blocks.scss */
+/* line 345, ../sass/blocks.scss */
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }

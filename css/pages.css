@@ -179,14 +179,14 @@ h1.title {
   letter-spacing: 0.5pt;
   text-shadow: 0 1px 1px #efefef;
   text-transform: uppercase;
-  padding: 0.9em 3em;
+  padding: 0.9em 2.9em;
   margin: 0 -0.6em 0 -2.5em;
 }
 
 /* line 177, ../sass/pages.scss */
 h2 {
   color: #414042;
-  font-size: 105%;
+  font-size: 110%;
   font-family: 'News Cycle';
   font-weight: normal;
   letter-spacing: 0.5pt;
@@ -380,4 +380,5 @@ span.field-label {
   padding-top: 5px;
   box-shadow: 0 4px 2px -4px black;
   -webkit-box-shadow: 0 4px 2px -4px black;
+  font-size: 95%;
 }

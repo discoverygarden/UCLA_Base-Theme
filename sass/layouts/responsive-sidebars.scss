@@ -80,7 +80,13 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 768px) {
 }
 
-@media all and (min-width: 640px) {
+@media all and (max-width: 640px) {
+  .view-frontpage {
+    .views-row {
+      max-width: 96% !important;
+      padding: 0.5em 2% !important;
+    }
+  }
 }
 
 @media all and (min-width: 480px) {
@@ -96,7 +102,7 @@ $zen-auto-include-item-base: false;
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 469px) {
+@media all and (min-width: 320px) and (max-width: 485px) {
   #main {
     padding-top: 0;
   }
@@ -109,7 +115,7 @@ $zen-auto-include-item-base: false;
       font-size: 55% !important;
       li {
         width: 57px !important;
-        margin: 20px 4px !important;
+        margin: 20px 2px !important;
       }
       li.active {
         height: 32px !important;
@@ -120,13 +126,13 @@ $zen-auto-include-item-base: false;
         top: -4.7em;
         .form-text {
           float: none;
-          width: 100%;
+          width: 98.5%;
         }
       }
   }
 }
 
-@media all and (min-width: 450px) and (max-width: 639px) {
+@media all and (min-width: 450px) and (max-width: 660px) {
   #main {
     padding-top: 6.5em;
   }
@@ -137,20 +143,18 @@ $zen-auto-include-item-base: false;
       position: relative;
       top: 4em;
       float: none !important;
-      li {
-      }
     }
     #block-islandora-solr-simple {
       top: -65px;
      .form-text {
       float: none;
-      width: 100%;
+      width: 98.5%;
      } 
     }
   }
 }
 
-@media all and (min-width: 640px) and (max-width: 767px) {
+@media all and (min-width: 640px) and (max-width: 790px) {
   #navigation {
     #main-menu {
       font-size: 70% !important;

@@ -8,23 +8,20 @@
  */
 /* line 14, ../sass/views-styles.scss */
 .view-frontpage .views-row {
-  max-width: 30%;
+  max-width: 31.3%;
   float: left;
-  background: #282828;
-  padding: 0.5em 0.7em;
+  background: #333;
+  padding: 0.5em 1%;
+  border-top: 5px solid #B9C2D4;
 }
-/* line 19, ../sass/views-styles.scss */
+/* line 20, ../sass/views-styles.scss */
 .view-frontpage .views-row p {
   font-size: 90%;
   margin: 0.5em 0 1em;
 }
-/* line 23, ../sass/views-styles.scss */
+/* line 24, ../sass/views-styles.scss */
 .view-frontpage .views-row li a {
   font-size: 80%;
-}
-/* line 27, ../sass/views-styles.scss */
-.view-frontpage .views-row-2 {
-  padding: 0.5em 3%;
 }
 
 /*
