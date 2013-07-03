@@ -80,11 +80,23 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 768px) {
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 787px) {
   .view-frontpage {
     .views-row {
       max-width: 96% !important;
       padding: 0.5em 2% !important;
+    }
+  }
+  #block-menu-menu-footer-menu {
+    line-height: 2.5em !important;
+    li {
+      display: inline-block;
+      border: none !important;
+    }
+  }
+  #block-block-1 {
+    p {
+      font-size: 90%;
     }
   }
 }
@@ -100,6 +112,7 @@ $zen-auto-include-item-base: false;
     height: 3.5em;
     width: $zen-grid-width;
   }
+  
 }
 
 @media all and (min-width: 320px) and (max-width: 485px) {
@@ -110,15 +123,15 @@ $zen-auto-include-item-base: false;
     max-height: 6em;
     #main-menu {
       position: relative;
-      top: 4.9em !important;
+      top: 3.9em !important;
       float: none !important;
-      font-size: 55% !important;
+      font-size: 65% !important;
       li {
-        width: 57px !important;
+        width: 70px !important;
         margin: 20px 2px !important;
       }
       li.active {
-        height: 32px !important;
+        height: 35px !important;
       }
     }
       #block-islandora-solr-simple {
@@ -126,10 +139,45 @@ $zen-auto-include-item-base: false;
         top: -4.7em;
         .form-text {
           float: none;
-          width: 98.5%;
+          width: 94%;
         }
       }
   }
+  #block-menu-menu-footer-menu {
+    line-height: 2.5em !important;
+    li {
+      display: block;
+      border: none !important;
+    }
+    li.last {
+      float: none !important;
+    }
+  }
+}
+
+@media all and (max-width: 370px) {
+  #navigation {
+    max-height: 14em;
+    padding-top: 1.5em;
+    #main-menu {
+      line-height: 2em !important;
+      li {
+        border-radius: 7px !important;
+        box-shadow: 0 2px 0 1px #555555 !important;
+        border: 1px solid #777777 !important;
+        margin: 5px 2px !important;
+        width: 98.5% !important;
+      }
+      li.active {
+        height: 24px !important;
+        line-height: 2.4em !important;
+      }
+    } 
+
+    #block-islandora-solr-simple {
+      top: -11.5em;
+    }
+  } 
 }
 
 @media all and (min-width: 450px) and (max-width: 660px) {
@@ -152,6 +200,11 @@ $zen-auto-include-item-base: false;
      } 
     }
   }
+  ul.inline, .region-footer ul  {
+    li {
+      display: inline;
+    }
+  }
 }
 
 @media all and (min-width: 640px) and (max-width: 790px) {
@@ -161,6 +214,28 @@ $zen-auto-include-item-base: false;
       li {
        width: 78px !important; 
       }
+    }
+  }
+}
+
+@media all and (max-width: 700px) {
+  #block-menu-menu-footer-menu {
+  font-size: 80%;
+  margin: 0;
+  line-height: 3.5em;
+
+  ul.menu {
+    margin: 0;
+    
+     li {
+      padding-left: 1em;
+      text-decoration: none;
+      display: block !important;
+      line-height: 1.8em;
+     } 
+     li.last {
+      float: none !important;
+     }
     }
   }
 }
@@ -251,8 +326,11 @@ $zen-auto-include-item-base: false;
 
     .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
       @include zen-grid-item(1, 1);
-      margin-left: 1em; 
     }
+  }
+
+  #block-block-1 {
+    max-width: 66.6% !important;
   }
 
   /*

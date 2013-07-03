@@ -97,6 +97,7 @@ scripts[] = js/script.js
 ;   <?php print $header_top; ?>
 
 regions[header]         = Header
+regions[sub_header]         = Sub Header
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help

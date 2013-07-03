@@ -226,9 +226,9 @@ function uclalib_preprocess_block(&$variables, $hook) {
 // */
 /*
  * Open Type Fonts
-*/
+
 function uclalib_preprocess_html(&$variables) {
-  drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('type' => 'external'));
-  drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('type' => 'external'));
-  drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('type' => 'external'));
-}
+  drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
+  drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
+}*/

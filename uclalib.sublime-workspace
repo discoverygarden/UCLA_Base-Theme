@@ -27,7 +27,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 5970,
+				"buffer_size": 6009,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 3413,
+				"buffer_size": 3432,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14604,
+				"buffer_size": 14641,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 1061,
+				"buffer_size": 1091,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 6842,
+				"buffer_size": 8231,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,23 +67,15 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 6152,
+				"buffer_size": 6631,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/islandora-large-image.tpl.php",
+			"file": "template.php",
 			"settings":
 			{
-				"buffer_size": 2734,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/page.tpl.php",
-			"settings":
-			{
-				"buffer_size": 6955,
+				"buffer_size": 9956,
 				"line_ending": "Unix"
 			}
 		}
@@ -120,11 +112,12 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCLA EC2/themes/uclalib/templates/page.tpl.php",
+		"/Volumes/UCLA EC2/themes/uclalib/templates/islandora-large-image.tpl.php",
 		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/js/script.js",
 		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/js/accordion.js",
 		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/theme/accordion-rotator.tpl.php",
 		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/accordion_rotator.module",
-		"/Volumes/UCLA EC2/themes/uclalib/templates/islandora-large-image.tpl.php",
 		"/Volumes/UCLA EC2/modules/islandora_solution_pack_large_image/theme/islandora-large-image.tpl.php",
 		"/Volumes/UCLA EC2/themes/uclalib/uclalib.sublime-project",
 		"/Volumes/UCLA/themes/uclalib/uclalib.info",
@@ -165,6 +158,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"search",
 			"acc_title",
 			"648",
 			"clip",
@@ -232,7 +226,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -240,43 +234,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 5970,
+						"buffer_size": 6009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2911,
-								2911
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2786.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/navigation.scss",
-					"settings":
-					{
-						"buffer_size": 3413,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1876,
-								1876
+								498,
+								498
 							]
 						],
 						"settings":
@@ -292,19 +258,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "sass/normalize.scss",
+					"buffer": 1,
+					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 14604,
+						"buffer_size": 3432,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3534,
-								3534
+								3029,
+								3237
 							]
 						],
 						"settings":
@@ -314,7 +280,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1633.0,
+						"translation.y": 2019.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/normalize.scss",
+					"settings":
+					{
+						"buffer_size": 14641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10037,
+								10037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8087.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -324,15 +318,15 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 1061,
+						"buffer_size": 1091,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								199
+								229,
+								229
 							]
 						],
 						"settings":
@@ -352,15 +346,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 6842,
+						"buffer_size": 8231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6042,
-								6042
+								518,
+								518
 							]
 						],
 						"settings":
@@ -370,7 +364,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4033.0,
+						"translation.y": 12.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -380,15 +374,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 6152,
+						"buffer_size": 6631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1673,
-								1673
+								2268,
+								2268
 							]
 						],
 						"settings":
@@ -398,53 +392,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1171.0,
+						"translation.y": 1841.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "templates/islandora-large-image.tpl.php",
+					"file": "template.php",
 					"settings":
 					{
-						"buffer_size": 2734,
+						"buffer_size": 9956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1291,
-								1291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/page.tpl.php",
-					"settings":
-					{
-						"buffer_size": 6955,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6890,
-								6890
+								7092,
+								7092
 							]
 						],
 						"settings":
