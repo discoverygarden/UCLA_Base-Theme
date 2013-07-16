@@ -23,8 +23,9 @@
 .block.even {
   /* Zebra striping for each block in the region */
 }
-/* line 24, ../sass/blocks.scss */
-.block h2.block-title {
+
+/* line 25, ../sass/blocks.scss */
+h2.block-title {
   /* Block title */
   color: #fff;
   text-shadow: 0 1px 1px #000;

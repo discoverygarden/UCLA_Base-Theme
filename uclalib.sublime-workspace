@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"web",
+				"webkit-box-shadow"
+			],
+			[
 				"border-left-",
 				"border-bottom-left-radius"
 			],
@@ -27,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 6009,
+				"buffer_size": 6395,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +47,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14641,
+				"buffer_size": 15164,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +55,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 1091,
+				"buffer_size": 1198,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +71,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 6631,
+				"buffer_size": 7748,
 				"line_ending": "Unix"
 			}
 		},
@@ -112,6 +116,8 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCLA EC2/themes/uclalib/sass/_base.scss",
+		"/Volumes/UCLA EC2/themes/uclalib/sass/_custom.scss",
 		"/Volumes/UCLA EC2/themes/uclalib/templates/page.tpl.php",
 		"/Volumes/UCLA EC2/themes/uclalib/templates/islandora-large-image.tpl.php",
 		"/Volumes/UCLA EC2/modules/islandora_accordion_rotator_module/js/script.js",
@@ -151,6 +157,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -158,6 +165,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"News",
+			"Baskerville",
+			"linear",
+			"#content",
+			"pager",
+			".pager",
 			"search",
 			"acc_title",
 			"648",
@@ -226,7 +239,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -234,15 +247,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 6009,
+						"buffer_size": 6395,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								498,
-								498
+								4733,
+								4733
 							]
 						],
 						"settings":
@@ -252,7 +265,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4522.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -290,15 +303,15 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 14641,
+						"buffer_size": 15164,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10037,
-								10037
+								3291,
+								3291
 							]
 						],
 						"settings":
@@ -308,7 +321,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8087.0,
+						"translation.y": 1301.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -318,15 +331,15 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 1091,
+						"buffer_size": 1198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								229
+								454,
+								454
 							]
 						],
 						"settings":
@@ -364,7 +377,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12.0,
+						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -374,15 +387,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 6631,
+						"buffer_size": 7748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2268,
-								2268
+								396,
+								396
 							]
 						],
 						"settings":
@@ -392,7 +405,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1841.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -409,8 +422,8 @@
 						"selection":
 						[
 							[
-								7092,
-								7092
+								9659,
+								9613
 							]
 						],
 						"settings":
@@ -420,7 +433,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2929.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

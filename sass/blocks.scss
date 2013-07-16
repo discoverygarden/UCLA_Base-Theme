@@ -20,13 +20,13 @@
 
   &.even { /* Zebra striping for each block in the region */
   }
+}
 
-  h2.block-title { /* Block title */
-    color: #fff;
-    text-shadow: 0 1px 1px #000;
-    font-size: 115%;
-    font-weight: normal;
-  }
+h2.block-title { /* Block title */
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+  font-size: 115%;
+  font-weight: normal;
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
