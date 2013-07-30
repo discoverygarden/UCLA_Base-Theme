@@ -118,6 +118,10 @@ body {
  margin-top: 2em;
  padding-top: 1.3em;
 }
+.bar_top {
+  height: auto;
+}
+
 
 /*
  * Main (container for everything else)
@@ -142,18 +146,31 @@ body {
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
-  padding-left: 17px;
-  font-size: 80%;
-  line-height: 2.4em;
+  padding-left: 9px;
+  font-size: 70%;
+  letter-spacing: 0.6pt;
+  line-height: 1.5em;
   ol {
     margin: 0;
     padding: 0;
   }
   li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 2px 5px 4px;
+    border: 1px solid #555;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+
+      .islandora-solr-breadcrumb-super {
+        font-size: 100%;
+        position: relative;
+        top: 4px; left: 1px;
+      }
+  }
+  li:hover {
+    background: #384664;
   }
 }
 

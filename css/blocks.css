@@ -28,7 +28,7 @@
 h2.block-title {
   /* Block title */
   color: #fff;
-  text-shadow: 0 1px 1px #000;
+  text-shadow: 0 1px 1px black;
   font-size: 115%;
   font-weight: normal;
 }
@@ -48,6 +48,7 @@ h2.block-title {
   /* First block created with "Add block" link */
   margin-top: 1em;
   margin-bottom: 2.5em;
+  clear: left;
 }
 /* line 42, ../sass/blocks.scss */
 #block-block-1 p {
@@ -86,12 +87,12 @@ h2.block-title {
 /* line 72, ../sass/blocks.scss */
 #block-islandora-solr-simple .form-text {
   width: 39%;
-  font-family: 'News Cycle', helvetica, arial;
+  font-family: "News Cycle", helvetica, arial;
   color: #808184;
   float: right;
   height: 1.9em;
   padding-left: 0.5em;
-  border: 1px solid #666;
+  border: 1px solid #666666;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   box-shadow: 0 3px 3px -3px #808184;
@@ -119,7 +120,7 @@ h2.block-title {
   margin-bottom: 0.5em;
   margin-left: 0.1em;
   background: #CACDD3;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 5px;
 }
 /* line 110, ../sass/blocks.scss */
@@ -131,7 +132,7 @@ h2.block-title {
 /* line 118, ../sass/blocks.scss */
 #block-menu-block-1, #block-islandora-solr-basic-facets, #block-islandora-solr-sort {
   background: #fefefe;
-  border: 1px solid #35425F;
+  border: 1px solid #35425f;
   border-top: none;
   margin: 0 -5px 1.5em;
 }
@@ -192,7 +193,7 @@ ul.pager li a {
 ul.pager li.pager-current {
   color: #35425F;
   background: #cbcbcb;
-  border: 1px solid #35425F;
+  border: 1px solid #35425f;
 }
 
 /* line 186, ../sass/blocks.scss */
@@ -263,7 +264,7 @@ dl.solr-grid-field, dl.islandora-basic-collection-object, div.islandora-basic-co
   background: #CACDD3;
   padding: 5px 5px 1em;
   width: 19%;
-  border: 1px solid #aaa;
+  border: 1px solid #aaaaaa;
   min-height: 0;
   box-shadow: 0 3px 3px -3px #808184;
   -webkit-box-shadow: 0 3px 3px -3px #808184;
@@ -278,11 +279,11 @@ dl.solr-grid-field dt.solr-grid-thumb img, dl.islandora-basic-collection-object 
   -webkit-border-radius: 0;
 }
 /* line 264, ../sass/blocks.scss */
-dl.solr-grid-field dd.solr-grid-caption, dl.islandora-basic-collection-object dd.solr-grid-caption, div.islandora-basic-collection-object dd.solr-grid-caption, dl.solr-grid-field .islandora-basic-collection-grid dd.islandora-basic-collection-caption, .islandora-basic-collection-grid dl.solr-grid-field dd.islandora-basic-collection-caption, dl.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption, .islandora-basic-collection-grid dl.islandora-basic-collection-object dd.islandora-basic-collection-caption, div.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption, .islandora-basic-collection-grid div.islandora-basic-collection-object dd.islandora-basic-collection-caption, div.islandora-basic-collection-object dd.dc-description {
+dl.solr-grid-field dd.solr-grid-caption, dl.islandora-basic-collection-object dd.solr-grid-caption, div.islandora-basic-collection-object dd.solr-grid-caption, dl.solr-grid-field .islandora-basic-collection-grid dd.islandora-basic-collection-caption, .islandora-basic-collection-grid dl.solr-grid-field dd.islandora-basic-collection-caption, dl.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption, .islandora-basic-collection-grid dl.islandora-basic-collection-object dd.islandora-basic-collection-caption, div.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption, .islandora-basic-collection-grid div.islandora-basic-collection-object dd.islandora-basic-collection-caption, dl.islandora-basic-collection-object div.islandora-basic-collection-object dd.dc-description, div.islandora-basic-collection-object dl.islandora-basic-collection-object dd.dc-description, div.islandora-basic-collection-object dd.dc-description {
   margin-top: 1em;
 }
 /* line 266, ../sass/blocks.scss */
-dl.solr-grid-field dd.solr-grid-caption a, dl.islandora-basic-collection-object dd.solr-grid-caption a, div.islandora-basic-collection-object dd.solr-grid-caption a, dl.solr-grid-field .islandora-basic-collection-grid dd.islandora-basic-collection-caption a, .islandora-basic-collection-grid dl.solr-grid-field dd.islandora-basic-collection-caption a, dl.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption a, .islandora-basic-collection-grid dl.islandora-basic-collection-object dd.islandora-basic-collection-caption a, div.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption a, .islandora-basic-collection-grid div.islandora-basic-collection-object dd.islandora-basic-collection-caption a, div.islandora-basic-collection-object dd.dc-description a {
+dl.solr-grid-field dd.solr-grid-caption a, dl.islandora-basic-collection-object dd.solr-grid-caption a, div.islandora-basic-collection-object dd.solr-grid-caption a, dl.solr-grid-field .islandora-basic-collection-grid dd.islandora-basic-collection-caption a, .islandora-basic-collection-grid dl.solr-grid-field dd.islandora-basic-collection-caption a, dl.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption a, .islandora-basic-collection-grid dl.islandora-basic-collection-object dd.islandora-basic-collection-caption a, div.islandora-basic-collection-object .islandora-basic-collection-grid dd.islandora-basic-collection-caption a, .islandora-basic-collection-grid div.islandora-basic-collection-object dd.islandora-basic-collection-caption a, dl.islandora-basic-collection-object div.islandora-basic-collection-object dd.dc-description a, div.islandora-basic-collection-object dl.islandora-basic-collection-object dd.dc-description a, div.islandora-basic-collection-object dd.dc-description a {
   line-height: 1.3em;
   display: inline-block;
   font-size: 85%;
@@ -322,12 +323,12 @@ div.islandora-basic-collection-object dd.dc-description {
 .islandora-large-image-content, .islandora-basic-image-content {
   background: #C1C7D3;
   border-radius: 0;
-  border: 1px solid #999;
+  border: 1px solid #999999;
 }
 
 /* line 317, ../sass/blocks.scss */
 .islandora-large-image-sidebar h2, .islandora-basic-image-sidebar h2 {
-  text-shadow: 0 1px 1px #ccc;
+  text-shadow: 0 1px 1px #cccccc;
   margin: 0;
   font-size: 110%;
 }

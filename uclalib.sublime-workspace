@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 6395,
+				"buffer_size": 6729,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 15164,
+				"buffer_size": 15267,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,15 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 7748,
+				"buffer_size": 7762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/ie8.css",
+			"settings":
+			{
+				"buffer_size": 129,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,6 +124,7 @@
 	},
 	"file_history":
 	[
+		"/Volumes/UCLA EC2/themes/uclalib/uclalib.info",
 		"/Volumes/UCLA EC2/themes/uclalib/sass/_base.scss",
 		"/Volumes/UCLA EC2/themes/uclalib/sass/_custom.scss",
 		"/Volumes/UCLA EC2/themes/uclalib/templates/page.tpl.php",
@@ -165,6 +174,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"condition",
+			"html",
 			"News",
 			"Baskerville",
 			"linear",
@@ -230,7 +241,7 @@
 			"5px 5px 15px 5px",
 			"1px 1px 2px 0 #7D7D7D"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -239,7 +250,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -247,15 +258,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 6395,
+						"buffer_size": 6729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4733,
-								4733
+								2796,
+								2802
 							]
 						],
 						"settings":
@@ -265,7 +276,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4522.0,
+						"translation.y": 2414.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -303,15 +314,15 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 15164,
+						"buffer_size": 15267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3291,
-								3291
+								4277,
+								4277
 							]
 						],
 						"settings":
@@ -321,7 +332,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1301.0,
+						"translation.y": 1929.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -387,15 +398,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 7748,
+						"buffer_size": 7762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								396,
-								396
+								772,
+								772
 							]
 						],
 						"settings":
@@ -412,6 +423,32 @@
 				},
 				{
 					"buffer": 6,
+					"file": "css/ie8.css",
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "template.php",
 					"settings":
 					{
