@@ -79,7 +79,7 @@
 			"file": "css/ie8.css",
 			"settings":
 			{
-				"buffer_size": 129,
+				"buffer_size": 167,
 				"line_ending": "Unix"
 			}
 		},
@@ -250,7 +250,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -426,15 +426,15 @@
 					"file": "css/ie8.css",
 					"settings":
 					{
-						"buffer_size": 129,
+						"buffer_size": 167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								165,
+								165
 							]
 						],
 						"settings":

@@ -9,3 +9,7 @@
 	position: relative;	
 	padding-top: 3.5em;
 }
+
+.acc_image img {
+	max-width: none;
+}
