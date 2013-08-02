@@ -161,8 +161,9 @@ li a.active {
     margin: 0;
     
     li {
-      border-right: 1px solid #888F99;
       padding-left: 1em;
+      text-decoration: none;
+      display: inline-block;
 
       a {
         color: #b1b6bc;

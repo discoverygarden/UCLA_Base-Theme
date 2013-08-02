@@ -152,18 +152,19 @@ li a.active {
 }
 /* line 163, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li {
-  border-right: 1px solid #888F99;
   padding-left: 1em;
+  text-decoration: none;
+  display: inline-block;
 }
-/* line 167, ../sass/navigation.scss */
+/* line 168, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a {
   color: #b1b6bc;
 }
-/* line 170, ../sass/navigation.scss */
+/* line 171, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a:hover {
   color: #ffb300;
 }
-/* line 175, ../sass/navigation.scss */
+/* line 176, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li.last {
   border-right: none;
   float: right;

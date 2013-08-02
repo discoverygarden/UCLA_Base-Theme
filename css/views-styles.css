@@ -23,6 +23,12 @@
 .view-frontpage .views-row li a {
   font-size: 80%;
 }
+/* line 32, ../sass/views-styles.scss */
+.view-frontpage .attachment .views-row {
+  background: none;
+  border: none;
+  float: none;
+}
 
 /*
  * Views' admin tabs
@@ -32,18 +38,18 @@
  * pages. If your sub-theme isn't used for admin pages, you can remove this
  * entire section.
  */
-/* line 42, ../sass/views-styles.scss */
+/* line 50, ../sass/views-styles.scss */
 .views-displays .secondary li {
   float: none;
   margin: 0 6px 0;
 }
-/* line 48, ../sass/views-styles.scss */
+/* line 56, ../sass/views-styles.scss */
 .views-displays .secondary a:link,
 .views-displays .secondary a:visited {
   text-shadow: none;
   padding: 2px 7px 3px;
 }
-/* line 53, ../sass/views-styles.scss */
+/* line 61, ../sass/views-styles.scss */
 .views-displays .secondary .open > a {
   -webkit-border-radius: 7px 7px 0 0;
   -moz-border-radius: 7px 7px 0 0;
@@ -51,15 +57,15 @@
   -o-border-radius: 7px 7px 0 0;
   border-radius: 7px 7px 0 0;
 }
-/* line 55, ../sass/views-styles.scss */
+/* line 63, ../sass/views-styles.scss */
 .views-displays .secondary .open > a:hover {
   color: #333;
 }
-/* line 60, ../sass/views-styles.scss */
+/* line 68, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li {
   margin: 0;
 }
-/* line 62, ../sass/views-styles.scss */
+/* line 70, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:first-child {
   -webkit-border-radius: 0 7px 0 0;
   -moz-border-radius: 0 7px 0 0;
@@ -67,7 +73,7 @@
   -o-border-radius: 0 7px 0 0;
   border-radius: 0 7px 0 0;
 }
-/* line 65, ../sass/views-styles.scss */
+/* line 73, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:last-child {
   -webkit-border-radius: 0 0 7px 7px;
   -moz-border-radius: 0 0 7px 7px;
