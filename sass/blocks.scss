@@ -20,13 +20,13 @@
 
   &.even { /* Zebra striping for each block in the region */
   }
+}
 
-  h2.block-title { /* Block title */
-    color: #fff;
-    text-shadow: 0 1px 1px #000;
-    font-size: 115%;
-    font-weight: normal;
-  }
+h2.block-title { /* Block title */
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+  font-size: 115%;
+  font-weight: normal;
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
@@ -38,8 +38,7 @@
 #block-block-1 { /* First block created with "Add block" link */
   margin-top: 1em;
   margin-bottom: 2.5em;
-  max-width: 66.6%;
-
+  clear: left;
   p {
     margin: 0.3em 0 0 0;
   }
@@ -72,7 +71,7 @@
   }
   .form-text {
     width: 39%;
-    font-family: 'News Cycle';
+    font-family: 'News Cycle', helvetica, arial;
     color: #808184;
     float: right;
     height: 1.9em;
@@ -80,8 +79,8 @@
     border: 1px solid #666;
     border-radius: 7px;
       -webkit-border-radius: 7px;
-    box-shadow: 0 4px 2px -2px #888888;
-      -webkit-box-shadow: 0 4px 2px -2px #888888;
+    box-shadow: 0 3px 3px -3px #808184;
+      -webkit-box-shadow: 0 3px 3px -3px #808184;
   }
   .form-submit {
     background: url("../images/search.png") no-repeat;
@@ -103,8 +102,9 @@
   display: block;
   margin-bottom: 0.5em;
   margin-left: 0.1em;
-  background: #C1C7D3;
+  background: #CACDD3;
   border: 1px solid #ccc;
+  padding: 5px;
   }
 
   td {
@@ -124,7 +124,7 @@
   h2 {
     background: url("../images/triangle.png") no-repeat 3px -2px #35425F;
     font-size: 90%;
-    padding: 18px 0 10px 10px;
+    padding: 18px 0 10px 18px;
     text-transform: uppercase;
     letter-spacing: 1.2pt;
   }
@@ -154,8 +154,8 @@
 
 #block-islandora-solr-display-switch {
   float: right;
-  margin-right: -10px;
-
+  margin: -7px;
+  position: relative; z-index: 50;
   ul {
     list-style: none; 
     padding: 0;
@@ -188,7 +188,7 @@ ul.pager {
   }
    
     a.display-default {
-      background: url("../images/display-list.png") no-repeat top left;
+      background: url("../images/display-grid-list.png") no-repeat top left;
       width: 25px; height: 22px;
       display: inline-block;
       text-indent: -9999px;
@@ -200,17 +200,43 @@ ul.pager {
     }
     a.display-table {
       @extend a.display-default;
-      background: url("../images/display-grid-list.png") no-repeat top left;
+      background: url("../images/display-list.png") no-repeat top left;
     }
 
 }
 
-#islandora-solr-top {
-  margin: 10px;
+.islandora-basic-collection-display-switch {
+  margin-top: 1em;
+  
+  li {
+    float: left;
+    padding: 0 !important;
+  }
+
+a.islandora-view-grid {
+    width: 25px; height: 22px;
+    display: inline-block;
+    text-indent: -9999px;
+    outline: none;
+    background: url("../images/display-grid.png") no-repeat top left;
+  }
+
+  a.islandora-view-list {
+    @extend a.islandora-view-grid;
+    background: url("../images/display-list.png") no-repeat top left;
+  }
+
 }
 
-.dc-title {
+#islandora-solr-top {
+  float: left;
+  margin-left: 7px;
+}
+
+.solr-label.dc-title, .solr-value.dc-title {
   background: #dbdcdd;
+  border-radius: 0 0 5px 0;
+    -webkit-border-radius: 0 0 5px 0;
 }
 
 dl.solr-fields {
@@ -218,26 +244,67 @@ dl.solr-fields {
 }
 
 dl.solr-grid-field {
-  background: #C1C7D3;
+  background: #CACDD3;
   padding: 5px 5px 1em;
   width: 19%;
-  border: 1px solid #999;
-
+  border: 1px solid #aaa;
+  min-height: 0;
+  box-shadow: 0 3px 3px -3px #808184;
+  -webkit-box-shadow: 0 3px 3px -3px #808184;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
   dt.solr-grid-thumb {
     img {
       display: block;
       margin: 0 auto;
+      border-radius: 0;
+      -webkit-border-radius: 0;
     }
   }
   dd.solr-grid-caption {
-      text-align: center;
       margin-top: 1em;
     a {
       line-height: 1.3em; 
       display: inline-block;
+      font-size: 85%;
     }
   }
+}
 
+dl.islandora-basic-collection-object {
+  @extend dl.solr-grid-field;
+  min-height: 320px;
+}
+
+.islandora-basic-collection-object dt img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+  -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
+  margin-left: 10px;
+}
+
+.islandora-basic-collection-grid {
+  dt.islandora-basic-collection-thumb{
+   @extend dt.solr-grid-thumb; 
+   margin-top: 10px; margin-bottom: 10px;
+  } 
+
+  dd.islandora-basic-collection-caption {
+    @extend dd.solr-grid-caption;
+  }
+}
+
+div.islandora-basic-collection-object {
+  @extend dl.solr-grid-field;
+  border: none;
+  width: auto;
+  dt {
+  }
+  dd.dc-description {
+    @extend dd.solr-grid-caption;
+    font-size: 85%;
+  }
 }
 
 .islandora-large-image-content, .islandora-basic-image-content {
